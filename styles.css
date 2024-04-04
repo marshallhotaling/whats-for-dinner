@@ -8,3 +8,37 @@ red - #ee5253
 
 */
 
+.top {
+width: 100%;
+height: 50px;
+background-color: #0fb9b1;
+position: fixed;
+}
+
+.mainLabel{
+    position: absolute;
+margin-top: 18px;
+margin-left: 25px;
+font-weight: bolder;
+}
+
+
+
+.addButton {
+height: 25px;
+float: right;
+margin-top: 12px;
+margin-right: 25px;
+
+}
+
+.mainBody{
+
+}
+
+.left {
+
+}
+.right {
+
+}
