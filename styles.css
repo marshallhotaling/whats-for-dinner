@@ -65,7 +65,7 @@ red - #ee5253
     height: 350px;
     background-color: rgba(225, 225, 225, .9);
     display: inline-block;
-    text-align: left;
+    text-align: center;
 }
 
 .mainWrapper {
@@ -159,3 +159,20 @@ red - #ee5253
     margin-top: 20;
 
 }
+.hidden {
+    display: none!important;
+  }
+
+  .cookingPotImg {
+height: 100px;
+width: 100px;
+  }
+  .topLable{
+display: block;
+  }
+
+  .bottomLable{
+
+    display: block;
+
+  }
