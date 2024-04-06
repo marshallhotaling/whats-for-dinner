@@ -126,21 +126,29 @@ red - #ee5253
 .sideQuestion {
     /* position: absolute; */
     margin-top: 10;
+    cursor: pointer;
 }
 
 .mainQuestion {
     /* position: absolute; */
     margin-top: 10;
+    cursor: pointer;
+
+
 }
 
 .dessertQuestion {
     /* position: absolute; */
     margin-top: 10;
+    cursor: pointer;
+
 }
 
 .entierQuestion {
     /* position: absolute; */
     margin-top: 10;
+    cursor: pointer;
+
 }
 
 .leftIndent {
@@ -159,20 +167,32 @@ red - #ee5253
     margin-top: 20;
 
 }
+
 .hidden {
-    display: none!important;
-  }
+    display: none !important;
+}
 
-  .cookingPotImg {
-height: 100px;
-width: 100px;
-  }
-  .topLable{
-display: block;
-  }
+.cookingPotImg {
+    height: 100px;
+    width: 100px;
+    margin-top: 125px;
+}
 
-  .bottomLable{
-
+.topLabel {
     display: block;
+    margin-top: 125px
+}
 
-  }
+.bottomLabel {
+    font-weight: bolder;
+    display: block;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.clearButton {
+position: absolute;
+bottom: 15;
+right: 15;
+background-color: #95a5a6;
+}
