@@ -10,7 +10,7 @@
 
     <div class="top">
       <label class="mainLabel">What's for dinner? </label>
-      <button class="addButton"> ADD A RECIPE</button>
+      <button class="addButton" onclick="showFooter()"> ADD A RECIPE</button>
     </div>
 
     <div class="mainBody">
@@ -21,19 +21,19 @@
             <label class="titleLabel">What are you looking for?</label>
             <div class="sideQuestion">
               <input class="sideCheckbox" type="radio">
-              <lable class="sideLabe"> Side</lable>
+              <label class="sideLabe"> Side</label>
             </div>
             <div class="mainQuestion">
               <input class="mainCheckbox" type="radio">
-              <lable class="mainLabe"> Main</lable>
+              <label class="mainLabe"> Main</label>
             </div>
             <div class="dessertQuestion">
               <input class="dessertCheckbox" type="radio">
-              <lable class="dessertLabe"> Dessert</lable>
+              <label class="dessertLabe"> Dessert</label>
             </div>
             <div class="entierQuestion">
               <input class="entierCheckbox" type="radio">
-              <lable class="entierLabe"> Entier Meal </lable>
+              <label class="entierLabe"> Entier Meal </label>
             </div>
 
 
@@ -45,12 +45,14 @@
 
         <div class="right">
           <div class="cookingPot">
-<img class = "cookingPotImg"  src="./assets/cookpot.svg">
+            <img class="cookingPotImg" src="./assets/cookpot.svg">
           </div>
           <div class="foodText hidden">
-<label class="topLable">test1 </label>
-<label class="bottomLable">test2</label>
+            <label class="topLabel">test1 </label>
+            <label class="bottomLabel">test2</label>
+            <button class="clearButton" onclick="clearView()">Clear</button>
           </div>
+
 
 
         </div>
@@ -58,13 +60,13 @@
       </div>
 
     </div>
-    <div class="footer">
+    <div class="footer hidden">
       <div class="indent">
         <label class="recipeTypeLabel">Recipe Type: </label>
         <input class="recipeTypeImput">
         <label class="recipeNameLabel">recipe Name </label>
         <input class="recipeNameImput">
-        <button class="addNew">ADD NEW</button>
+        <button class="addNew" onclick="addNew()">ADD NEW</button>
       </div>
     </div>
 
